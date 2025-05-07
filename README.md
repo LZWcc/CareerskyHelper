@@ -1,5 +1,6 @@
 # CareerskyHelper
 北森生涯教育平台(章节视频自动播放 + 防止切换界面自动暂停)
+
 有问题请提交issue或联系qq1274645232
 ## 使用方法
 ### 1.下载Releases中的`Careerskyhelper.crx`
