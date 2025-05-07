@@ -4,8 +4,9 @@
 ## 使用方法
 ### 1.下载Releases中的**Careerskyhelper.crx
 ### 2.将该拓展拖入至浏览器中
-edge浏览器可点击[这里](edge://extensions/)
+edge浏览器也可点击 [这里](edge://extensions/)
 
-chrome浏览器可点击[这里](chrome://extensions/)
+chrome浏览器点击 [这里](chrome://extensions/)
+
 
 ### 3.在拓展管理界面中启用
