@@ -1,6 +1,8 @@
 # CareerskyHelper
 北森生涯教育平台(章节视频自动切换 + 防止切换界面自动暂停)
 
+[登录入口]https://hnie.careersky.cn/jixun/Account/SignIn?returnUrl=http%3a%2f%2fhnie.careersky.cn%2f
+
 有问题请提交issue或联系qq1274645232
 ## 使用方法
 ### 1.下载Releases中的`Careerskyhelper.crx`
