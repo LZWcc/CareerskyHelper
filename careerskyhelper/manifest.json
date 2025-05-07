@@ -1,0 +1,22 @@
+{
+    "name": "CareerSky Helper",
+    "version": "1.0",
+    "description": "启用视频自动播放并禁用可见性检测(适用于北森生涯教育平台)",
+    "author": "LZWcc",
+    "manifest_version": 3,
+    "permissions": ["scripting", "activeTab"],
+    "host_permissions": ["*://*.careersky.cn/*"],
+    "action": {
+      "default_title": "启用视频自动播放"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ]
+  }
