@@ -1,0 +1,35 @@
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Chrome 扩展相关
+*.crx
+*.pem
+*.zip
+
+# 开发环境
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+.env
+
+# 编辑器相关
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.vs/
+
+# 临时文件
+*.log
+*.tmp
+*~
+*.bak
+*.swp
