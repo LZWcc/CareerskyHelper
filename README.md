@@ -26,6 +26,5 @@ chrome浏览器可手动访问 `chrome://extensions/`
 
 ## 5.Issue
 
-直接拖入.crx文件时可能无法使用 请下载 `careerskyhelper_ver1.1`并![1746811056293](image/README/1746811056293.png)
 
 ![1746810909409](image/README/1746810909409.png)
