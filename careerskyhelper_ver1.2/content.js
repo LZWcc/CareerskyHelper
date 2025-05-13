@@ -251,20 +251,6 @@ function removeVisibilityChangeListeners() {
     return originalRemoveEventListener.call(this, type, listener, options);
   };
   
-  // 重写更多相关属性
-  // 重写document.visibilityState属性，使其始终返回"visible"
-  Object.defineProperty(document, 'visibilityState', {
-    get: function() {
-      return 'visible';
-    }
-  });
-  
-  // 重写document.hidden属性，使其始终返回false
-  Object.defineProperty(document, 'hidden', {
-    get: function() {
-      return false;
-    }
-  });
   
   // 重写document.webkitHidden属性，使其始终返回false（Safari支持）
   Object.defineProperty(document, 'webkitHidden', {
